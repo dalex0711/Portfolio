@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Portafolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+</head>
+<body class="bg-gradient-to-b from-gray-900 to-gray-800 text-white font-sans">
+
+  <!-- Navbar -->
+  <header class="fixed top-0 w-full bg-gray-900/80 backdrop-blur-md shadow-lg z-50">
+    <nav class="max-w-6xl mx-auto flex justify-between items-center py-6 px-6">
+      <h1 class="text-xl font-bold text-blue-400">Dev <span class="text-white"> Dalexa</span></h1>
+      <ul class="flex gap-6 text-gray-300">
+        <li><a href="#inicio" class="hover:text-blue-400">Inicio</a></li>
+        <li><a href="#sobre-mi" class="hover:text-blue-400">Sobre mí</a></li>
+        <li><a href="#proyectos" class="hover:text-blue-400">Proyectos</a></li>
+        <li><a href="#contacto" class="hover:text-blue-400">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+ <!-- Hero -->
+<section id="inicio" class="min-h-screen flex items-center justify-center px-6">
+  <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+    
+    <!-- Foto -->
+    <div class="flex justify-center">
+      <img src='./assest/WhatsApp Image 2025-10-02 at 6.16.43 PM.jpeg'
+           alt="Mi Foto"
+           class="rounded-full border-4 border-blue-500 shadow-lg w-72 h-74 object-cover">
+    </div>
+
+   <div class="text-center md:text-left">
+  <p class="text-gray-400">Hola Mundo, soy</p>
+  <h2 class="text-4xl md:text-5xl font-bold mt-2">
+    Ingeniera en Sistemas y <span class="text-blue-400">Desarrolladora Web</span>
+  </h2>
+  <p class="mt-4 text-gray-300">
+    Apasionada por el desarrollo de software, disfruto transformar ideas en soluciones digitales innovadoras, eficientes y con visión de crecimiento.
+  </p>
+
+  <!-- Botones / Iconos -->
+  <div class="mt-6 flex gap-4 justify-center md:justify-start">
+    <a href="#proyectos" 
+       class="border border-blue-400 hover:bg-blue-400/20 px-6 py-2 rounded-lg font-medium">
+       Mis proyectos
+    </a>
+    
+    <!-- GitHub -->
+    <a href="https://github.com/dalex0711" target="_blank" 
+       class="border border-gray-500 hover:bg-gray-700 p-2 rounded-lg flex items-center justify-center">
+      <i class="devicon-github-original text-2xl text-gray-300"></i>
+    </a>
+
+  
+    <!-- Correo -->
+    <a href="mailto:dalexasanjuanc@gmail.com" 
+      class="border border-red-500 hover:bg-red-500/20 p-2 rounded-lg flex items-center justify-center">
+      <!-- Ícono de correo -->
+      <svg xmlns="http://www.w3.org/2000/svg" 
+          fill="none" viewBox="0 0 24 24" stroke="currentColor" 
+          class="w-6 h-6 text-red-400">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
+              d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8m-18 8h18a2 2 0 002-2V6a2 2 0 00-2-2H3a2 2 0 00-2 2v8a2 2 0 002 2z" />
+      </svg>
+    </a>
+  </div>
+</div>
+</section>
+
+
+    <!-- Sobre mí -->
+  <section id="sobre-mi" class="py-20 max-w-6xl mx-auto px-6">
+    <h3 class="text-3xl font-bold text-center mb-12">Sobre Mí</h3>
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="bg-gray-800 p-6 rounded-xl shadow-md hover:shadow-blue-500/30 transition">
+        <h4 class="text-xl font-semibold mb-2">¿Quién Soy?</h4>
+        <p class="text-gray-300">Soy ingeniera en sistemas con pasión por el desarrollo web y las tecnologías modernas.</p>
+      </div>
+      <div class="bg-gray-800 p-6 rounded-xl shadow-md hover:shadow-blue-500/30 transition">
+        <h4 class="text-xl font-semibold mb-2">Mi Objetivo</h4>
+        <p class="text-gray-300">Seguir creciendo como profesional, fortaleciendo mis habilidades en Frontend y Backend, y aportando soluciones que integren innovación, eficiencia y escalabilidad.</p>
+      </div>
+      <div class="bg-gray-800 p-6 rounded-xl shadow-md hover:shadow-blue-500/30 transition">
+        <h4 class="text-xl font-semibold mb-2">Mi Perfil</h4>
+        <p class="text-gray-300">Me destaco por la responsabilidad, la adaptabilidad y el compromiso con la calidad, buscando siempre superar expectativas en cada proyecto.</p>
+      </div>
+    </div>
+
+    <!-- Habilidades -->
+    <h4 class="text-2xl font-bold mt-16 mb-6 text-center">Mis Habilidades Técnicas</h4>
+    <div class="flex flex-wrap justify-center gap-8 text-5xl text-blue-400">
+      <i class="devicon-html5-plain"></i>
+      <i class="devicon-css3-plain"></i>
+      <i class="devicon-javascript-plain"></i>
+      <i class="devicon-typescript-plain"></i>
+      <i class="devicon-nodejs-plain"></i>
+      <i class="devicon-mysql-plain"></i>
+      
+    </div>
+  </section>
+
+
+  <!-- Proyectos -->
+  <section id="proyectos" class="py-20 bg-gray-900">
+    <h3 class="text-3xl font-bold text-center mb-12">Proyectos</h3>
+    <div class="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto px-6">
+
+      <!-- Proyecto Barbexa -->
+      <div class="bg-gray-800 rounded-xl overflow-hidden shadow-md hover:shadow-blue-500/30 transition">
+        <div class="p-6">
+          <h4 class="text-xl font-semibold mb-2">Barbexa</h4>
+          <p class="text-gray-300 mb-4">
+            Barbexa es una aplicación web Full-Stack para la gestión de barberías. 
+            Permite agendar citas en línea, administrar clientes y barberos, configurar servicios 
+            y visualizar métricas del negocio mediante un dashboard.
+          </p>
+
+          <!-- Tecnologías -->
+          <div class="flex flex-wrap gap-2 mb-4 text-sm">
+            <span class="bg-orange-500/20 text-orange-400 px-3 py-1 rounded-full">MySQL</span>
+            <span class="bg-green-500/20 text-green-400 px-3 py-1 rounded-full">Node.js</span>
+            <span class="bg-gray-500/20 text-gray-300 px-3 py-1 rounded-full">Express</span>
+            <span class="bg-red-500/20 text-red-400 px-3 py-1 rounded-full">HTML</span>
+            <span class="bg-blue-500/20 text-blue-400 px-3 py-1 rounded-full">CSS</span>
+            <span class="bg-yellow-500/20 text-yellow-400 px-3 py-1 rounded-full">JavaScript</span>
+          </div>
+
+          <!-- Link a GitHub -->
+          <a href="https://github.com/dalex0711/Barbexa.git" target="_blank" 
+            class="inline-flex items-center gap-2 text-blue-400 hover:text-blue-500">
+            <i class="devicon-github-original text-2xl"></i> Ver en GitHub
+          </a>
+        </div>
+      </div>
+
+      <!-- Proyecto FREELAHUB -->
+      <div class="bg-gray-800 rounded-xl overflow-hidden shadow-md hover:shadow-blue-500/30 transition">
+        <div class="p-6">
+          <h4 class="text-xl font-semibold mb-2">FREELAHUB</h4>
+          <p class="text-gray-300 mb-4">
+            Plataforma para conectar freelancers con clientes, incluyendo publicación de proyectos
+            y gestión de usuarios. 
+            <br><br>
+            🏆 <span class="text-blue-400 font-semibold">Reconocimiento:</span> 
+            Primer lugar en el <span class="italic">Challenge de Desarrollo Web de RIWI</span>, 
+            destacándome por innovación, habilidad técnica y trabajo en equipo.
+          </p>
+
+          <!-- Tecnologías -->
+          <div class="flex flex-wrap gap-2 mb-4 text-sm">
+            <span class="bg-green-500/20 text-green-400 px-3 py-1 rounded-full">Node.js (Vanilla)</span>
+            <span class="bg-blue-500/20 text-blue-400 px-3 py-1 rounded-full">TailwindCSS</span>
+          </div>
+
+          <!-- Link a GitHub -->
+          <a href="https://github.com/dalex0711/-FREELAHUB.git" target="_blank" 
+            class="inline-flex items-center gap-2 text-blue-400 hover:text-blue-500">
+            <i class="devicon-github-original text-2xl"></i> Ver en GitHub
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="py-20 max-w-4xl mx-auto px-6">
+      <h3 class="text-3xl font-bold text-center mb-12">Trabajemos Juntos</h3>
+      <form id="contactForm" class="bg-gray-800 p-8 rounded-xl shadow-md space-y-4">
+        <input type="text" placeholder="Tu Nombre" required
+              class="w-full p-3 rounded-lg bg-gray-900 border border-gray-700 focus:outline-none focus:border-blue-500">
+        <input type="email" placeholder="Correo Electrónico" required
+              class="w-full p-3 rounded-lg bg-gray-900 border border-gray-700 focus:outline-none focus:border-blue-500">
+        <textarea placeholder="Tu Mensaje" required
+                  class="w-full p-3 rounded-lg bg-gray-900 border border-gray-700 focus:outline-none focus:border-blue-500"></textarea>
+        <button type="submit" class="w-full bg-blue-500 hover:bg-blue-600 p-3 rounded-lg font-medium">
+          Enviar Mensaje
+        </button>
+      </form>
+
+      <!-- Mensaje de confirmación oculto -->
+      <div id="formMessage" 
+          class="hidden mt-4 flex items-center justify-center gap-2 text-green-400 font-medium">
+        <!-- Ícono check -->
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-green-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
+                d="M9 12l2 2l4-4m6 2a9 9 0 11-18 0a9 9 0 0118 0z"/>
+        </svg>
+        <span>Tu mensaje fue recibido, pronto te responderé.</span>
+      </div>
+    </section>
+
+  <!-- Footer -->
+  <footer class="py-6 text-center text-gray-400 border-t border-gray-700">
+    © 2025 Dev Dalexa Sanjuan Todos los derechos reservados.
+  </footer>
+  <script src="./src/main.js"></script>
+</body>
+</html>
